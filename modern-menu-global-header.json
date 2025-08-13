@@ -1,0 +1,76 @@
+{
+  "layout": {
+    "metadata": {
+      "et_builder_version": "{{your_divi_version}}",
+      "exported_at": "2025-08-09T12:00:00-04:00"
+    },
+    "sections": [
+      {
+        "type": "regular",
+        "settings": {
+          "label": "Preview Notice",
+          "custom_padding": "0px|0px|0px|0px|true|true",
+          "background_color": "#FFFFFF"
+        },
+        "rows": [
+          {
+            "settings": {
+              "width": "1080px",
+              "use_custom_gutter": "off"
+            },
+            "columns": [
+              {
+                "settings": {},
+                "modules": [
+                  {
+                    "module_type": "et_pb_text",
+                    "content": "<p style=\"margin:0; padding:1rem; color:#000000; font-size:14px;\">This layout package contains a Theme Builder Global Header only. Import it into Divi → Theme Builder. The section below is a lightweight placeholder for library previews.</p>",
+                    "settings": {
+                      "text_text_color": "#000000",
+                      "background_color": "#FFFFFF",
+                      "disabled_on": "phone"
+                    },
+                    "responsive": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "theme_builder": {
+    "global_header": {
+      "sections": [
+        {
+          "type": "regular",
+          "settings": {
+            "label": "Global Header — Modern Menu",
+            "custom_padding": "0px|0px|0px|0px|true|true",
+            "background_color": "#000000",
+            "sticky_enabled": "on",
+            "sticky_top_offset": "0px",
+            "z_index": "9999",
+            "box_shadow": "rgba(0,0,0,0.25) 0px 8px 20px 0px"
+          },
+          "rows": []
+        }
+      ]
+    },
+    "global_footer": null,
+    "templates": []
+  },
+  "global_presets": {},
+  "asset_manifest": [
+    {
+      "slot_id": "logo_url",
+      "purpose": "Brand logo for header",
+      "alt": "Site logo",
+      "prompt": "Minimal geometric logomark in white on transparent background, clean sans-serif wordmark, high contrast",
+      "target_size": "1600x400",
+      "format": "webp"
+    }
+  ],
+  "notes": "Filename suggestion: modern-menu-global-header.json. Import to Divi → Portability → Theme Builder tab."
+}
